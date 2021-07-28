@@ -1,0 +1,160 @@
+body {
+    background-color: #383838;
+}
+
+h3,
+p {
+    margin: 10px;
+    position: relative;
+    left: 60px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    width: 300px;
+}
+
+#canvasBoard {
+    border: 2px solid black;
+    padding: 0px;
+    position: absolute;
+    left: 60px;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+#button-box {
+    width: 61px;
+    position: absolute;
+    top: 57px;
+    left: 2px;
+}
+
+#selectedColor {
+    position: absolute;
+    top: 60px;
+    right: 39px;
+    padding: 5px;
+    margin: 0px;
+    border: 2px solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 25%;
+}
+
+.ButtoncolorImg {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    top: -4px;
+}
+
+.Buttoncolor {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+    background-color: white;
+    border: 0px;
+}
+
+button {
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border: 1px solid grey;
+    font-size: 12px;
+}
+
+.button {
+    text-transform: capitalize;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#blue {
+    background: blue;
+    color: white;
+}
+
+#red {
+    background: red;
+    color: white;
+}
+
+#yellow {
+    background: yellow;
+    color: black;
+}
+
+#green {
+    background: green;
+    color: white;
+}
+
+#purple {
+    background: purple;
+    color: white;
+}
+
+#brown {
+    background: brown;
+    color: white;
+}
+
+#black {
+    background: black;
+    color: white;
+}
+
+#white {
+    background: white;
+    color: black;
+}
+
+.blueSelect {
+    background-color: blue;
+    color: white;
+    border: black;
+}
+
+.redSelect {
+    background-color: red;
+    color: white;
+    border: black;
+}
+
+.yellowSelect {
+    background-color: yellow;
+    color: white;
+    border: black;
+}
+
+.greenSelect {
+    background-color: green;
+    color: white;
+    border: black;
+}
+
+.purpleSelect {
+    background-color: purple;
+    color: white;
+    border: black;
+}
+
+.brownSelect {
+    background-color: brown;
+    color: white;
+    border: black;
+}
+
+.blackSelect {
+    background-color: black;
+    color: white;
+    border: white;
+}
+
+.whiteSelect {
+    background-color: white;
+    color: black;
+    border: black;
+}
